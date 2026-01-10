@@ -17,7 +17,7 @@ internal class Shinigami(context: MangaLoaderContext) :
 
 	override val configKeyDomain = ConfigKey.Domain("id.shinigami.asia")
 	private val apiSuffix = "api.shngm.io/v1"
-	private val cdnSuffix = "storage.shngm.id"
+	private val cdnSuffix = "assets.shngm.id"
 
 	override fun onCreateConfig(keys: MutableCollection<ConfigKey<*>>) {
 		super.onCreateConfig(keys)
