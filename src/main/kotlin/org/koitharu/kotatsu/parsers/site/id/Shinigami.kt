@@ -15,7 +15,7 @@ import java.util.*
 internal class Shinigami(context: MangaLoaderContext) :
 	PagedMangaParser(context, MangaParserSource.SHINIGAMI, 24) {
 
-	override val configKeyDomain = ConfigKey.Domain("id.shinigami.asia")
+	override val configKeyDomain = ConfigKey.Domain("09.shinigami.asia")
 	private val apiSuffix = "api.shngm.io/v1"
 	private val cdnSuffix = "assets.shngm.id"
 
